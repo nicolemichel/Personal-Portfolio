@@ -60,7 +60,7 @@ footer a:hover {
   color: #f26122;
 }
 footer p {
-  display: inline;
+  display: inline-block;
   float: right;
 }
 #coded {
@@ -70,7 +70,6 @@ footer p {
 #coded:hover {
   color: var(--secondary-color);
 }
-
 
 .page-title {
   position: absolute;
@@ -163,9 +162,14 @@ footer p {
   border-radius: 50%;
   text-align: center;
 }
+#future-link {
+  color: var(--secondary-color);
+}
+#future-link:hover {
+  color: #f26122;
+}
 #work-with-link {
   color: var(--primary-color);
-  text-decoration: none;
 }
 #work-with-link:hover {
   font-weight: 700;
@@ -176,8 +180,8 @@ footer p {
 }
 #takeoff {
   position: relative;
-  width: 109%;
-  left: -4%;
+  width: 110%;
+  left: -3%;
 }
 #rocket {
   position: relative;
@@ -369,6 +373,7 @@ footer p {
 .intern-holder {
   padding: 5% 0% 5% 5%;
   border-radius: 20px;
+  background: #194687;
 }
 #modern-homes {
   position: relative;
@@ -390,14 +395,14 @@ footer p {
 
 /*? CONTACT PAGE ?*/
 #contact-earth {
-  width: 40%;
+  width: 35%;
   position: relative;
-  margin-top: 8%;
+  margin-top: 10%;
   right: 35%;
 }
 #contact-moon {
   position: relative;
-  width: 10%;
+  width: 6%;
   margin-bottom: 25%;
   right: 33%;
 }
@@ -406,4 +411,7 @@ footer p {
 }
 #email {
   color: var(--secondary-color);
+}
+#email:hover {
+  color: #f26122;
 }
