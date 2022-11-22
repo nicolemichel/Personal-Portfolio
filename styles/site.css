@@ -38,6 +38,39 @@ h4 {
   font-size: 35px;
   padding-top: 40%;
 }
+h5 {
+  font-family: var(--title-font);
+  font-size: 30px;
+}
+
+footer {
+  height: 50px;
+  color: var(--secondary-color);
+}
+.fa-codepen,
+.fa-square-github,
+.fa-linkedin {
+  font-size: 35px;
+  padding-right: 2%;
+}
+footer a {
+  color: var(--secondary-color);
+}
+footer a:hover {
+  color: #f26122;
+}
+footer p {
+  display: inline;
+  float: right;
+}
+#coded {
+  color: #f26122;
+  text-decoration: none;
+}
+#coded:hover {
+  color: var(--secondary-color);
+}
+
 
 .page-title {
   position: absolute;
@@ -299,17 +332,43 @@ h4 {
 }
 
 .work-holder {
-  height: 50%;
+  background: var(--secondary-color);
+  color: var(--primary-color);
   border-radius: 25px;
-  display: flex;
+  padding: 5%;
   justify-content: center;
   align-items: center;
+  min-height: 550px !important;
+  box-shadow: 0 5px 10px rgba(92, 92, 94, 0.4);
 }
 .work-images {
-  width: 85%;
-  height: 85%;
+  width: 90%;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.work-holder .btn-primary-outline {
+  font-size: 26px;
+  padding: 10px 40px;
+  color: var(--primary-color);
+  border: 3px solid var(--primary-color);
+  border-radius: 15px;
+}
+.work-holder .btn-primary-outline:hover {
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  text-decoration: none;
+  border: none;
+}
+
+.large-github,
+.large-codepen {
+  font-size: 230px;
+}
+
+.intern-holder {
+  padding: 5% 0% 5% 5%;
   border-radius: 20px;
-  object-fit: fit;
 }
 #modern-homes {
   position: relative;
