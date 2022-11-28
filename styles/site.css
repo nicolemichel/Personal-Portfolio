@@ -415,3 +415,160 @@ footer p {
 #email:hover {
   color: #f26122;
 }
+
+/*! RESPONSIVENESS !*/
+@media only screen and (min-width: 2560px) {
+  body {
+    font-size: 50px;
+  }
+  h1 {
+    font-size: 200px;
+  }
+
+  h2 {
+    font-size: 70px;
+  }
+  h3 {
+    font-size: 50px !important;
+  }
+  h4 {
+    font-size: 70px;
+  }
+  h5 {
+    font-size: 60px;
+  }
+  .navbar-brand {
+    font-size: 50px !important;
+  }
+  .nav-item {
+    padding-right: 2%;
+  }
+  .container-fluid {
+    width: 90%;
+  }
+  .btn-primary-outline {
+    font-size: 50px;
+    border: 5px solid var(--secondary-color);
+  }
+  .fa-codepen,
+  .fa-square-github,
+  .fa-linkedin {
+    font-size: 60px;
+    padding-right: 2%;
+  }
+  .page-title {
+    top: 50% !important;
+  }
+  /*HOME PAGE*/
+  #name-title {
+    top: 42% !important;
+  }
+  .accent-title {
+    margin-left: 15%;
+  }
+  #headshot {
+    width: 48%;
+    margin-top: -41%;
+    margin-left: 4% !important;
+  }
+  /*ABOUT PAGE*/
+  #aquarius {
+    width: 90%;
+  }
+  .circle {
+    width: 800px;
+    height: 800px;
+  }
+  #rocket-smoke {
+    height: 26%;
+    width: 62%;
+    left: -4%;
+    position: absolute;
+    overflow: hidden !important;
+  }
+  /*WORK PAGE*/
+  #mighty-circle {
+    border: 8px solid #52aa8a;
+    width: 60%;
+    height: 60%;
+  }
+  .bar {
+    height: 75px;
+    font-size: 45px;
+  }
+  .work-holder {
+    min-height: 1020px !important;
+  }
+  .work-images {
+    height: 500px;
+  }
+  .large-github,
+  .large-codepen {
+    font-size: 500px;
+  }
+  .work-holder .btn-primary-outline {
+    font-size: 50px;
+    border: 5px solid var(--primary-color);
+  }
+}
+
+@media only screen and (min-width: 1443px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .page-title {
+    top: 57%;
+  }
+  /*HOME PAGE*/
+  #name-title {
+    top: 48%;
+  }
+  /*WORK PAGE*/
+  #mighty-circle {
+    width: 28%;
+    height: 60%;
+  }
+  .work-holder {
+    margin-bottom: 5%;
+  }
+  /*CONTACT PAGE*/
+  .contact-section {
+    margin-top: -10%;
+  }
+}
+
+@media only screen and (max-width: 1436px) {
+  .page-title {
+    top: 43%;
+  }
+  /*HOME PAGE*/
+  #name-title {
+    top: 37%;
+  }
+  /*WORK PAGE*/
+  #mighty-circle {
+    width: 28%;
+    height: 45%;
+  }
+  .work-holder {
+    margin-bottom: -14% !important;
+  }
+  /*CONTACT PAGE*/
+  .contact-section {
+    margin-top: -23%;
+  }
+}
+
+@media only screen and (max-width: 1435px) {
+  .page-title {
+    top: 45%;
+  }
+  /*HOME PAGE*/
+  #name-title {
+    top: 40%;
+  }
+  /*CONTACT PAGE*/
+  .contact-section {
+    margin-top: -20%;
+  }
+}
