@@ -64,10 +64,10 @@
     <div class="container-fluid-fluid text-center">
       <h1 class="page-title">MY WORK</h1>
       <img
+        class="lazy text-end"
         src="/images/Mercury.png"
         alt="Cartoon Mercury"
         id="work-mercury"
-        class="text-end"
       />
     </div>
   </header>
@@ -75,7 +75,7 @@
     <div class="container-fluid">
       <!--pluto, tiny but mighty-->
       <div class="row mt-5">
-        <div class="col-12">
+        <div class="col-12 word-padding">
           <div>
             <h1>TINY BUT MIGHTY</h1>
           </div>
@@ -109,7 +109,12 @@
           <h1 class="text-center">BRIGHT AND BEAUTIFUL</h1>
         </div>
         <div class="col-5">
-          <img src="/images/Venus.png" alt="Cartoon Venus" id="work-venus" />
+          <img
+            class="lazy"
+            src="/images/Venus.png"
+            alt="Cartoon Venus"
+            id="work-venus"
+          />
         </div>
         <div class="col-7 text-end">
           <p>
@@ -118,8 +123,8 @@
             <br />
             <br />
             If we’re being honest here, I lack the confidence to call myself the
-            "brightest" coder. However I know what makes a good coder is organized
-            code, and I can definitely bring that to the table.
+            "brightest" coder. However I know what makes a good coder is
+            organized code, and I can definitely bring that to the table.
             <br />
             <br />
             Even with my little experience you can see that I am
@@ -214,15 +219,15 @@
       </div>
       <!--What I've Done-->
       <div class="col-12 mt-5">
-        <h1 style="text-align: center;">WHAT I'VE DONE</h1>
+        <h1 class="text-center">WHAT I'VE DONE</h1>
       </div>
       <div class="row mt-5 text-center">
         <div class="col-4">
           <div class="work-holder">
             <img
+              class="lazy work-images"
               src="/images/tom-thomas.png"
               alt="Tom Thomas Tunes Site"
-              class="work-images"
             />
             <div class="align-items-center mt-5">
               <h5 class="mt-3">TOM THOMAS TUNES</h5>
@@ -239,9 +244,9 @@
         <div class="col-4">
           <div class="work-holder">
             <img
+              class="lazy work-images"
               src="/images/weather-app.png"
               alt="SheCodes Weather App Project"
-              class="work-images"
             />
             <div class="align-items-center mt-5">
               <h5 class="mt-3">SHECODES WEATHER APP</h5>
@@ -258,9 +263,9 @@
         <div class="col-4">
           <div class="work-holder">
             <img
+              class="lazy work-images"
               src="/images/react-weather.png"
               alt="SheCodes React Weather App"
-              class="work-images"
             />
             <div class="align-items-center mt-5">
               <h5 class="mt-3">SHECODES REACT WEATHER APP</h5>
@@ -279,9 +284,9 @@
         <div class="col-4">
           <div class="work-holder">
             <img
+              class="lazy work-images"
               src="/images/react-dictionary.png"
               alt="SheCodes Dictionary Project"
-              class="work-images"
             />
             <div class="align-items-center mt-5">
               <h5 class="mt-3">SHECODES REACT DICTIONARY</h5>
@@ -328,50 +333,48 @@
       </div>
 
       <!--Internship-->
-      <div class="row">
-        <div class="col-7">
-          <h1>INTERNSHIP</h1>
-          <div style="height: 225px;">
-            <h2 class="mt-5">SGC MODERN HOMES</h2>
-            <p>JavaScript work - animations including page animations.</p>
-            <a
-              href="https://sgcmodernhomes.ca/index.html"
-              class="btn btn-primary-outline position-absolute"
-              target="_blank"
-              >view</a
-            >
-          </div>
-          <div style="height: 225px;">
-            <h2>IMPERIAL THEATRE</h2>
-            <p>Responsive bug fixes.</p>
-            <a
-              href="https://www.imperialtheatre.net/"
-              class="btn btn-primary-outline position-absolute"
-              target="_blank"
-              >view</a
-            >
-          </div>
-        </div>
-        <div class="col-5">
-          <div
-            class="intern-holder"
-            id="modern-homes"
-          >
+      <div class="col-12 mt-5">
+        <h1 class="text-center">INTERNSHIP</h1>
+      </div>
+      <div class="row mt-5 text-center">
+        <div class="col-6">
+          <div class="work-holder">
             <img
+              class="lazy work-images"
               src="/images/sgc-screenshot.png"
               alt="SGC Modern Homes"
-              class="work-images"
             />
+            <div class="align-items-center mt-5">
+              <h5 class="mt-3">SGC Modern Homes</h5>
+              <p>HTML • CSS • JavaScript</p>
+              <p>Page Animations</p>
+              <a
+                href="https://sgcmodernhomes.ca/index.html"
+                class="btn btn-primary-outline"
+                target="_blank"
+                >view</a
+              >
+            </div>
           </div>
-          <div
-            class="intern-holder"
-            id="theatre"
-          >
+        </div>
+        <div class="col-6">
+          <div class="work-holder">
             <img
+              class="lazy work-images"
               src="/images/theatre-screenshot.png"
               alt="Imperial Theatre"
-              class="work-images"
             />
+            <div class="align-items-center mt-5">
+              <h5 class="mt-3">IMPERIAL THEATRE</h5>
+              <p>HTML • CSS • JavaScript</p>
+              <p>Responsive Layout Bug Fixes</p>
+              <a
+                href="https://www.imperialtheatre.net/"
+                class="btn btn-primary-outline"
+                target="_blank"
+                >view</a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -379,7 +382,7 @@
       <div class="col-12 text-center mt-5"><h1>WHAT'S THE WORD</h1></div>
       <!--Prof-->
       <div class="row mt-3 align-items-center" style="min-height: 50vh;">
-        <div class="col-8">
+        <div class="col-8 word-padding">
           <span class="highlighted" style="background:#0E76BD"
             >THE BEST STUDENT EVER</span
           >
@@ -400,7 +403,7 @@
       <!--Internship Host-->
       <div class="row align-items-center" style="min-height: 50vh;">
         <div class="col-4"></div>
-        <div class="col-8 text-end float-left">
+        <div class="col-8 word-padding text-end float-left">
           <span class="highlighted" style="background:#388659"
             >A DELIGHT TO WORK WITH</span
           >
@@ -416,7 +419,7 @@
       </div>
       <!--Classmate-->
       <div class="row align-items-center mb-5" style="min-height: 50vh;">
-        <div class="col-8">
+        <div class="col-8 word-padding">
           <span class="highlighted" style="background:#F26122"
             >AN AMAZING TEAM PLAYER</span
           >
@@ -437,8 +440,9 @@
         </div>
       </div>
     </div>
+    <script src="myscripts.js"></script>
   </body>
-  <footer>
+  <footer class="word-padding">
     <div class="container-fluid">
       <a href="https://codepen.io/your-work" target="_blank">
         <i class="fa-brands fa-codepen"></i
@@ -446,12 +450,17 @@
       <a href="https://github.com/nicolemichel" target="_blank"
         ><i class="fa-brands fa-square-github"></i
       ></a>
-      <a href="https://www.linkedin.com/in/nicole-michel-143303182/" target="_blank"
+      <a
+        href="https://www.linkedin.com/in/nicole-michel-143303182/"
+        target="_blank"
         ><i class="fa-brands fa-linkedin"></i
       ></a>
       <p>
         Website designed and
-        <a href="https://github.com/nicolemichel/Personal-Portfolio" target="_blank" id="coded"
+        <a
+          href="https://github.com/nicolemichel/Personal-Portfolio"
+          target="_blank"
+          id="coded"
           >coded</a
         >
         by ©Nicole Michel

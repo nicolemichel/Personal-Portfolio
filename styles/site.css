@@ -22,6 +22,12 @@ header {
 .row {
   min-height: 80vh;
 }
+.col-7 {
+  padding: 0 5% 0 5%;
+}
+.word-padding {
+  padding: 0 3% 0 3%;
+}
 
 h1 {
   font-family: var(--title-font);
@@ -107,6 +113,8 @@ footer p {
 }
 #headshot {
   margin-left: 2%;
+  width: 35%;
+  height: 35%;
 }
 .accent-title {
   font-size: 30px;
@@ -141,9 +149,9 @@ footer p {
 .mercury {
   position: relative;
   z-index: 1;
-  width: 30%;
+  width: 50%;
   float: right;
-  right: 15%;
+  right: -4%;
 }
 
 /*contact section*/
@@ -162,6 +170,7 @@ footer p {
   border-radius: 50%;
   text-align: center;
 }
+
 #future-link {
   color: var(--secondary-color);
 }
@@ -192,15 +201,15 @@ footer p {
 }
 #rocket-take-off {
   position: absolute;
-  height: 80%;
+  height: 99%;
   width: 2%;
   left: 26.5%;
-  bottom: -26%;
+  bottom: -40%;
   z-index: 3;
 }
 #rocket-smoke {
   height: 42%;
-  width: 109%;
+  width: 108%;
   left: -4%;
   position: absolute;
   overflow: hidden !important;
@@ -222,21 +231,21 @@ footer p {
   width: 100%;
   position: absolute;
   z-index: 2;
-  top: 20%;
+  top: 30%;
 }
 #d-yellow-smoke {
   height: 100%;
   width: 100%;
   position: absolute;
   z-index: 3;
-  top: 10%;
+  top: 20%;
 }
 #l-yellow-smoke {
   height: 100%;
   width: 100%;
   position: absolute;
   z-index: 5;
-  top: 20%;
+  top: 35%;
 }
 .smoke-circle {
   border-radius: 50%;
@@ -462,6 +471,100 @@ footer p {
   /*HOME PAGE*/
   #name-title {
     top: 42% !important;
+  }
+  .accent-title {
+    margin-left: 15%;
+  }
+  #headshot {
+    width: 48%;
+    margin-top: -41%;
+    margin-left: 4% !important;
+  }
+  /*ABOUT PAGE*/
+  #aquarius {
+    width: 90%;
+  }
+  .circle {
+    width: 800px;
+    height: 800px;
+  }
+  #rocket-smoke {
+    height: 26%;
+    width: 62%;
+    left: -4%;
+    position: absolute;
+    overflow: hidden !important;
+  }
+  /*WORK PAGE*/
+  #mighty-circle {
+    border: 8px solid #52aa8a;
+    width: 60%;
+    height: 60%;
+  }
+  .bar {
+    height: 75px;
+    font-size: 45px;
+  }
+  .work-holder {
+    min-height: 1020px !important;
+  }
+  .work-images {
+    height: 500px;
+  }
+  .large-github,
+  .large-codepen {
+    font-size: 500px;
+  }
+  .work-holder .btn-primary-outline {
+    font-size: 50px;
+    border: 5px solid var(--primary-color);
+  }
+}
+@media only screen and (max-width: 2559px) {
+   body {
+    font-size: 50px;
+  }
+  h1 {
+    font-size: 200px;
+  }
+
+  h2 {
+    font-size: 70px;
+  }
+  h3 {
+    font-size: 50px !important;
+  }
+  h4 {
+    font-size: 70px;
+  }
+  h5 {
+    font-size: 60px;
+  }
+  .navbar-brand {
+    font-size: 50px !important;
+  }
+  .nav-item {
+    padding-right: 2%;
+  }
+  .container-fluid {
+    width: 90%;
+  }
+  .btn-primary-outline {
+    font-size: 50px;
+    border: 5px solid var(--secondary-color);
+  }
+  .fa-codepen,
+  .fa-square-github,
+  .fa-linkedin {
+    font-size: 60px;
+    padding-right: 2%;
+  }
+  .page-title {
+    top: 50% !important;
+  }
+  /*HOME PAGE*/
+  #name-title {
+    top: 45% !important;
   }
   .accent-title {
     margin-left: 15%;

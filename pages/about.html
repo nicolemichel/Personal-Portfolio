@@ -63,7 +63,12 @@
   <header>
     <div class="container-fluid-fluid text-center">
       <h1 class="page-title">ABOUT ME</h1>
-      <img src="/images/Sun.png" alt="Cartoon Sun" id="about-sun" />
+      <img
+        class="lazy"
+        src="/images/Sun.png"
+        alt="Cartoon Sun"
+        id="about-sun"
+      />
     </div>
   </header>
   <body>
@@ -118,6 +123,7 @@
         </div>
         <div class="col-5">
           <img
+            class="lazy"
             src="/images/Aquarius.svg"
             alt="Aquarius Constellation"
             class="float-end"
@@ -130,7 +136,7 @@
         <h1 class="text-center">NOW LET'S TALK BUSINESS</h1>
       </div>
       <div>
-        <p>
+        <p class="word-padding">
           I'm a certified front-end developer that is comfortable working with
           HTML, CSS, JavaScript, JQuery, React, and bootstrap. I have a passion
           for UX/UI design and am always willing to learn something new.
@@ -153,7 +159,9 @@
       <!--coding journey-->
       <!--google quiz-->
       <div class="col-12 mt-5">
-        <h1 class="text-end">HOW IT ALL TOOK OFF <a href="#future" id="future-link">(TL;DR)</a></h1>
+        <h1 class="text-end word-padding">
+          HOW IT ALL TOOK OFF <a href="#future" id="future-link">(TL;DR)</a>
+        </h1>
       </div>
       <div class="row align-items-center">
         <div class="col-5">
@@ -226,7 +234,7 @@
         </div>
       </div>
       <!--exam-->
-      <div class="row text-center">
+      <div class="row text-center word-padding">
         <p>
           So here we are at step three.
           <br />
@@ -356,7 +364,12 @@
         </div>
       </div>
       <div id="takeoff">
-        <img src="/images/Rocket.svg" alt="Cartoon Rocket" id="rocket" />
+        <img
+          class="lazy"
+          src="/images/Rocket.svg"
+          alt="Cartoon Rocket"
+          id="rocket"
+        />
         <div id="rocket-smoke">
           <div id="l-orange-smoke">
             <div class="l-orange x-small smoke-circle" style="left: 0%;"></div>
@@ -537,5 +550,6 @@
         <div class="l-yellow" id="rocket-take-off"></div>
       </div>
     </div>
+    <script src="myscripts.js"></script>
   </body>
 </html>

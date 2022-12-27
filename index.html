@@ -68,6 +68,7 @@
       <h1 id="name-title">I'M NICOLE MICHEL</h1>
       <h3 class="accent-title right">a front-end web developer</h3>
       <img
+        class="lazy"
         src="/images/DarkMe.png"
         alt="Nicole as an astronaut"
         id="headshot"
@@ -97,20 +98,25 @@
           >
         </div>
         <div class="col-5">
-          <img src="/images/Sun.png" alt="Cartoon Sun" id="sun" />
+          <img
+            class="lazy"
+            src="/images/Sun.png"
+            alt="Cartoon Sun"
+            id="sun"
+          />
         </div>
       </div>
       <!--work section-->
       <div class="row align-items-center">
         <div id="work-circle"></div>
-        <div class="col-6">
+        <div class="col-5">
           <img
+            class="lazy mercury"
             src="/images/Mercury.png"
             alt="Cartoon Mercury"
-            class="mercury"
           />
         </div>
-        <div class="col-6">
+        <div class="col-7">
           <h1 class="text-end">WORK</h1>
           <p class="text-end">
             Grab a telescope and take a look at my work.
@@ -142,12 +148,17 @@
           >
         </div>
         <div class="col-5">
-          <img src="/images/Earth.png" alt="Cartoon Earth" class="earth" />
+          <img
+            class="lazy earth"
+            src="/images/Earth.png"
+            alt="Cartoon Earth"
+          />
         </div>
       </div>
     </div>
+    <script src="myscripts.js"></script>
   </body>
-  <footer>
+  <footer class="word-padding">
     <div class="container-fluid">
       <a href="https://codepen.io/your-work" target="_blank">
         <i class="fa-brands fa-codepen"></i
