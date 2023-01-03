@@ -1,0 +1,107 @@
+@media only screen and (max-width: 320px) {
+  body {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  header {
+    min-height: 60vh;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 25px;
+    padding-top: 40%;
+  }
+  h5 {
+    font-size: 20px;
+  }
+
+  .page-title {
+    position: absolute;
+    top: 35%;
+    left: 18%;
+  }
+
+  .text-end {
+    text-align: center;
+  }
+
+  .btn-primary-outline {
+    font-size: 16px;
+    padding: 8px 15px;
+    margin-top: 2.5% !important;
+  }
+
+  .btn-right {
+    right: 5%;
+  }
+
+  .row {
+    overflow-x: hidden;
+  }
+
+  footer {
+    display: none;
+  }
+  /*? HOME PAGE ?*/
+  #name-title {
+    top: 52%;
+    left: 9%;
+    font-size: 28px;
+    line-height: 10px;
+  }
+  .accent-title {
+    font-size: 20px;
+    line-height: 5px;
+    text-align: left;
+  }
+  #headshot {
+    width: 55%;
+    height: 55%;
+    margin: -3% 2% 0 0;
+  }
+  .left {
+    margin: 70% 0 0 8%;
+  }
+  .right {
+    margin: 18% 15% 0 0;
+  }
+
+  /*about section*/
+  #sun {
+    width: 250%;
+  }
+
+  /*work section*/
+  #work-circle {
+    width: 55%;
+    height: 40%;
+    left: -22%;
+  }
+
+  /*contact section*/
+  .earth {
+    width: 140%;
+  }
+
+  /*? ABOUT PAGE ?*/
+  #about-sun {
+    width: 100%;
+    margin: 0 auto !important;
+    align-items: center;
+    display: flex;
+  }
+
+  .circle {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+}
