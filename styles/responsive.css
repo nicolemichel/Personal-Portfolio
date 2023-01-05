@@ -7,6 +7,8 @@
 
   header {
     min-height: 60vh;
+    overflow-x: hidden;
+    position: relative;
   }
 
   h1 {
@@ -25,22 +27,23 @@
 
   .page-title {
     position: absolute;
-    top: 35%;
-    left: 18%;
+    top: 38%;
+    left: 17%;
   }
 
   .text-end {
-    text-align: center;
+    text-align: center !important;
   }
 
   .btn-primary-outline {
     font-size: 16px;
     padding: 8px 15px;
     margin-top: 2.5% !important;
+    margin-left: -20%;
   }
 
   .btn-right {
-    right: 5%;
+    right: 10%;
   }
 
   .row {
@@ -52,7 +55,7 @@
   }
   /*? HOME PAGE ?*/
   #name-title {
-    top: 52%;
+    top: 65%;
     left: 9%;
     font-size: 28px;
     line-height: 10px;
@@ -71,7 +74,7 @@
     margin: 70% 0 0 8%;
   }
   .right {
-    margin: 18% 15% 0 0;
+    margin: 17% 15% 0 0;
   }
 
   /*about section*/
@@ -103,5 +106,47 @@
     width: 250px;
     height: 250px;
     margin: 0 auto;
+  }
+
+  /*? WORK PAGE ?*/
+  #mighty-circle {
+    display: none;
+  }
+  #work-venus {
+    margin: 2% 0 5% 0;
+  }
+  #astronomical {
+    margin: 42% 0 0 0;
+  }
+  #grades {
+    margin: 31% -2% 0 0;
+  }
+  .bars-holder {
+    margin-top: 10%;
+  }
+  .bar {
+    text-align: start;
+    height: 47px;
+  }
+  .work-holder {
+    min-height: 400px !important;
+    margin-top: 10%;
+  }
+  .work-holder .btn-primary-outline {
+    margin: 0;
+  }
+
+  /*? CONTACT PAGE ?*/
+  #contact-earth {
+    margin-top: 20%;
+    right: 50%;
+  }
+  #contact-moon {
+    margin-bottom: 10%;
+    right: 50%;
+  }
+  .contact-section {
+    margin: -45% 0 0 4%;
+    overflow-x: hidden;
   }
 }
